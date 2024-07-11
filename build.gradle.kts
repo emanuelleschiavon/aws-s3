@@ -20,10 +20,12 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("com.amazonaws:aws-java-sdk-s3:1.12.759")
 
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation("io.mockk:mockk:1.13.11")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
